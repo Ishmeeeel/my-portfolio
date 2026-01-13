@@ -1,11 +1,11 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Ismail Usman — Cloud-Native ML Engineer",
+  author: "Ismail Usman",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
+    "I'm a Young Cloud-Native ML Engineer. I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems"
+    lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
@@ -25,11 +25,11 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Ismail Usman",
+    specialty: "Cloud-Native ML Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "I am a young Cloud-Native ML Engineer based in Nigeria with a foundational expertise in Mathematics I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems using Python, Kubernetes, and Docker. I am a passionate and hardworking professional dedicated to transforming complex algorithms into reliable, automated software services..",
+    email: "uthmanismail7@gmail.com",
   },
   experience: [
     {
