@@ -77,7 +77,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Student Performance Prediction (ML Pipeline)",
-      summary: "Machine learning project focused on end-to-end data preparation and modeling. Implemented structured data cleaning, handling of missing values, outlier inspection, feature encoding, and feature scaling prior to model training. Built and evaluated predictive models using scikit-learn, with emphasis on interpretability, validation, and reproducible preprocessing workflows.",
+      summary: "ML project focused on end-to-end data preparation and modeling. Implemented structured data cleaning, handling of missing values, feature encoding, and feature scaling prior to model training. Built and evaluated predictive models using scikit-learn, with emphasis on interpretability, validation, and reproducible preprocessing workflows.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: "/prediction.png",
