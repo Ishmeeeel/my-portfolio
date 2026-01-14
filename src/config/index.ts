@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Ismail Usman — Cloud-Native ML Engineer",
   author: "Ismail Usman",
   description:
-    "I'm a Young Cloud-Native ML Engineer. I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems"
+    "I'm a Young Cloud-Native ML Engineer. I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems",
     lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
