@@ -15,12 +15,11 @@ const { description, image, name } = Astro.props;
       class="h-80 w-64 flex-shrink-0 rotate-[5deg] bg-white p-4 md:rotate-[7deg]"
     >
       <Image
-        src={about.image}
-        alt={hero.name}
+        src={image}
+        alt={name}
         width={400}
         height={400}
-        /* CHANGE: Added 'object-top' so your face aligns with the top of the frame */
-        class="h-full w-full object-cover object-top rounded-2xl" 
+        class="h-full w-full object-cover object-top" 
       />
     </div>
   </div>
