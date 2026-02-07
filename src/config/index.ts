@@ -37,8 +37,9 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "September 2024",
       endDate: "Present",
       summary: [
-        "Lead and manage a high performing customer service team at MTN Connect Store, driving operational excellence and customer satisfaction across technical support operations. Oversee first-level technical troubleshooting, team performance optimization, and critical customer data management with strict adherence to confidentiality protocols. Successfully completed MTN's prestigious 'How Can I Serve You' customer service excellence training (2025), implementing best practices that enhance service delivery standards.",
-        "Leverage technical expertise and analytical thinking to resolve complex customer issues while mentoring team members in effective problem solving methodologies.",
+        "Lead customer service and first-level technical support operations.",
+        "Oversee issue resolution, team performance, and secure handling of customer data.",
+        "Mentor team members on structured problem-solving and service standards.",
       ],
     },
     {
@@ -47,8 +48,8 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "March 2020",
       endDate: "July 2024",
       summary: [
-        "Designed and delivered comprehensive mathematics and statistics curriculum for secondary school students, employing innovative teaching methodologies to simplify complex quantitative concepts. Developed customized lesson plans and assessment frameworks that improved student engagement and academic performance. ",
-        "Cultivated analytical thinking skills among students through practical problem solving exercises and real world applications of mathematical principles. Collaborated with academic staff to align curriculum standards with national educational requirements while maintaining consistently high student achievement rates.",
+        "Taught mathematics and statistics, emphasizing analytical thinking and problem-solving.",
+        "Designed lessons and assessments aligned with curriculum standards. ",
       ],
     },
     {
@@ -56,7 +57,10 @@ export const SITE_CONTENT: SiteContent = {
       position: "Graduate Assistant (NYSC)",
       startDate: "March 2022",
       endDate: "March 2023",
-      summary: "Delivered engaging lectures in advanced mathematics and foundational data science concepts to undergraduate students as part of the National Youth Service Corps program. Supported faculty members in curriculum development, examination preparation, and student academic counseling. Facilitated practical sessions that bridged theoretical mathematical concepts with data analysis applications, preparing students for careers in STEM fields. Maintained excellent student evaluation ratings while contributing to departmental research initiatives and academic development programs.",
+      summary: [
+            "Delivered undergraduate mathematics and introductory data science instruction."
+            "Supported curriculum development and academic activities",
+      ],
     },
   ],
   projects: [
