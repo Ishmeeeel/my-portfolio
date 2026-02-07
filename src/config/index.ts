@@ -81,13 +81,6 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/Ishmeeeel/KODECAMP5.0_-FASTAPI-CAMPSTONE-PROJECT-",
       image: "/fastapi.png",
     },
-    {
-      name: "Student Performance Prediction (ML Pipeline)",
-      summary: "ML project focused on end-to-end data preparation and modeling. Implemented structured data cleaning, handling of missing values, feature encoding, and feature scaling prior to model training. Built and evaluated predictive models using scikit-learn, with emphasis on interpretability, validation, and reproducible preprocessing workflows.",
-      linkPreview: "/",
-      linkSource: "https://github.com/Ishmeeeel/REALWORD_TASKS",
-      image: "/predictions.png",
-    },
   ],
   about: {
     description: `
