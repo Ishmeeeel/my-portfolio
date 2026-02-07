@@ -1,15 +1,14 @@
 import type { SiteConfig, SiteContent } from "../types";
-
 export const SITE_CONFIG: SiteConfig = {
-  title: "Ismail Usman — Cloud-Native ML Engineer",
+  title: "Ismail Usman — Cloud-Native ML Engineer |FastAPI • Kubernetes (AKS/GKE) • CI/CD",
   author: "Ismail Usman",
   description:
-    "I'm a Young Cloud-Native ML Engineer. I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems",
+    "I design and deploy ML services with production ready APIs, containerization, and cloud-native workflows",
     lang: "en",
   siteLogo: "/ismail-big.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
+    { text: "Experience", href: "#experience" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
@@ -62,6 +61,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
+  name: "Blue Schools Water Quality Monitor",
+  summary: "A Bayesian Decision Support System (DSS) designed to predict groundwater contamination risks in real-time. Built with Streamlit and pgmpy, it utilizes Probabilistic Graphical Models (Bayesian Networks) to infer safety levels from environmental variables like rainfall and latrine distance, providing an AI-driven alternative to expensive lab testing.",
+  linkPreview: "https://blue-schools-water.streamlit.app/",
+  linkSource: "https://github.com/Ishmeeeel/Blue-Schools-Water-Quality-Monitor",
+  image: "/predictions.png" 
+    },
+    {
       name: "Azure ML Pipeline Orchestration",
       summary: "End-to-end machine learning pipeline deployed on Azure Kubernetes Service (AKS) with automated model training, versioning, and inference API. Implements CI/CD workflows using Docker containers and Azure DevOps for seamless model deployment at scale.",
       linkPreview: "/",
@@ -85,8 +91,8 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Ismail Usman, a cloud-native machine learning engineer with experience building and deploying ML services using Docker, Kubernetes (AKS & GKE), and FastAPI. I work across the full ML lifecycle from data preprocessing and feature engineering to model deployment—focusing on scalable, maintainable, and human-centered solutions.
-      Beyond technical execution, I am motivated by human centered applications of data science, especially in areas such as mental health, education, and decision-support systems. I believe effective machine learning systems should be ethical, transparent, and designed to serve real societal needs, and I am continuously developing my skills.
+      I’m Ismail Usman, a cloud-native machine learning engineer focused on building production ready ML systems and API based services. I work with FastAPI, Docker, and cloud native workflows to design scalable and reliable machine learning solutions.
+      My interests include MLOps, probabilistic modeling, and human centered decision-support systems. I’m adaptable and comfortable adopting emerging tools and frameworks where they improve system performance, reliability, or maintainability. I’m open to remote, full-time, or contract opportunities globally.
     `,
     image: "/ismail-big.png",
   },
