@@ -58,8 +58,8 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "March 2022",
       endDate: "March 2023",
       summary: [
-            "Delivered undergraduate mathematics and introductory data science instruction."
-            "Supported curriculum development and academic activities",
+          "Delivered undergraduate mathematics and introductory data science instruction.",
+          "Supported curriculum development and academic activities",
       ],
     },
   ],
