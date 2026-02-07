@@ -1,10 +1,11 @@
 import type { SiteConfig, SiteContent } from "../types";
+
 export const SITE_CONFIG: SiteConfig = {
-  title: "Ismail Usman — Cloud-Native ML Engineer |FastAPI • Kubernetes (AKS/GKE) • CI/CD",
+  title: "Ismail Usman — Cloud-Native ML Engineer | FastAPI • Kubernetes (AKS/GKE) • CI/CD",
   author: "Ismail Usman",
   description:
     "I design and deploy ML services with production ready APIs, containerization, and cloud-native workflows",
-    lang: "en",
+  lang: "en",
   siteLogo: "/ismail-big.png",
   navLinks: [
     { text: "Projects", href: "#projects" },
@@ -25,11 +26,38 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Ismail Usman",
-    specialty: "Cloud-Native ML Engineer",
+    specialty: "Cloud-Native ML Engineer | FastAPI • Kubernetes (AKS/GKE) • CI/CD",
     summary:
-      "I am a young Cloud-Native ML Engineer based in Nigeria with a foundational expertise in Mathematics, I specialize in mathematical modeling, cloud infrastructure orchestration, and the end-to-end deployment of intelligent systems using Python, Kubernetes, and Docker. I am a passionate and hardworking professional dedicated to transforming complex algorithms into reliable, automated software services.",
+      "I design and deploy ML services with production ready APIs, containerization, and cloud-native workflows.",
     email: "uthmanismail7@gmail.com",
   },
+  
+  // PROJECTS SECTION (Moved to Top)
+  projects: [
+    {
+      name: "Blue Schools Water Quality Monitor",
+      summary: "A Bayesian Decision Support System (DSS) designed to predict groundwater contamination risks in real-time. Built with Streamlit and pgmpy, it utilizes Probabilistic Graphical Models (Bayesian Networks) to infer safety levels from environmental variables like rainfall and latrine distance, providing an AI-driven alternative to expensive lab testing.",
+      linkPreview: "https://blue-schools-water.streamlit.app/",
+      linkSource: "https://github.com/Ishmeeeel/Blue-Schools-Water-Quality-Monitor",
+      image: "/blue-schools.png",
+    },
+    {
+      name: "Azure ML Pipeline Orchestration",
+      summary: "End-to-end machine learning pipeline deployed on Azure Kubernetes Service (AKS) with automated model training, versioning, and inference API. Implements CI/CD workflows using Docker containers and Azure DevOps for seamless model deployment at scale.",
+      linkPreview: "/",
+      linkSource: "https://github.com/Ishmeeeel/SERIOUS-TASK-FAST-API-",
+      image: "/azure.png",
+    },
+    {
+      name: "FastAPI Event Ticketing System",
+      summary: "Production-style backend application built with FastAPI to manage users, events, and ticket purchases. Implements REST APIs, structured data models, payment workflow logic, QR-code ticket generation, and robust error handling. Emphasizes clean code organization, modular services, and real-world backend design practices.",
+      linkPreview: "/",
+      linkSource: "https://github.com/Ishmeeeel/KODECAMP5.0_-FASTAPI-CAMPSTONE-PROJECT-",
+      image: "/fastapi.png",
+    },
+  ],
+
+  // EXPERIENCE SECTION (Moved Below Projects)
   experience: [
     {
       company: "MTN NIGERIA",
@@ -49,7 +77,7 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "July 2024",
       summary: [
         "Taught mathematics and statistics, emphasizing analytical thinking and problem-solving.",
-        "Designed lessons and assessments aligned with curriculum standards. ",
+        "Designed lessons and assessments aligned with curriculum standards.",
       ],
     },
     {
@@ -58,34 +86,12 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "March 2022",
       endDate: "March 2023",
       summary: [
-          "Delivered undergraduate mathematics and introductory data science instruction.",
-          "Supported curriculum development and academic activities",
+        "Delivered undergraduate mathematics and introductory data science instruction.",
+        "Supported curriculum development and academic activities",
       ],
     },
   ],
-  projects: [
-    {
-  name: "Blue Schools Water Quality Monitor",
-  summary: "A Bayesian Decision Support System (DSS) designed to predict groundwater contamination risks in real-time. Built with Streamlit and pgmpy, it utilizes Probabilistic Graphical Models (Bayesian Networks) to infer safety levels from environmental variables like rainfall and latrine distance, providing an AI-driven alternative to expensive lab testing.",
-  linkPreview: "https://blue-schools-water.streamlit.app/",
-  linkSource: "https://github.com/Ishmeeeel/Blue-Schools-Water-Quality-Monitor",
-  image: "/predictions.png" 
-    },
-    {
-      name: "Azure ML Pipeline Orchestration",
-      summary: "End-to-end machine learning pipeline deployed on Azure Kubernetes Service (AKS) with automated model training, versioning, and inference API. Implements CI/CD workflows using Docker containers and Azure DevOps for seamless model deployment at scale.",
-      linkPreview: "/",
-      linkSource: "https://github.com/Ishmeeeel/SERIOUS-TASK-FAST-API-",
-      image: "/azure.png",
-    },
-    {
-      name: "FastAPI Event Ticketing System",
-      summary: "Production-style backend application built with FastAPI to manage users, events, and ticket purchases. Implements REST APIs, structured data models, payment workflow logic, QR-code ticket generation, and robust error handling. Emphasizes clean code organization, modular services, and real-world backend design practices.",
-      linkPreview: "/",
-      linkSource: "https://github.com/Ishmeeeel/KODECAMP5.0_-FASTAPI-CAMPSTONE-PROJECT-",
-      image: "/fastapi.png",
-    },
-  ],
+
   about: {
     description: `
       I’m Ismail Usman, a cloud-native machine learning engineer focused on building production ready ML systems and API based services. I work with FastAPI, Docker, and cloud native workflows to design scalable and reliable machine learning solutions.
@@ -94,5 +100,3 @@ export const SITE_CONTENT: SiteContent = {
     image: "/ismail-big.png",
   },
 };
-
-// #5755ff
